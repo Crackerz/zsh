@@ -131,3 +131,6 @@ fi
 ###-end-npm-completion-###
 
 xrdb -merge ~/.Xresources
+
+export NVM_DIR="/home/wblankenship/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
