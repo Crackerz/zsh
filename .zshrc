@@ -73,9 +73,9 @@ fi
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export PATH=$HOME/bin:/usr/local/bin:$PATH
-export GOROOT=/home/crackerz/Development/test
-export PATH=$PATH:$GOROOT/bin:~/bin:~/node_modules/.bin
+export PATH=/usr/local/bin:$PATH
+export $GOPATH=$HOME/Development/golang
+export PATH=$PATH:~/bin:~/node_modules/.bin:/usr/local/go/bin:$GOPATH/bin
 ###-begin-npm-completion-###
 #
 # npm command completion script
